@@ -7,6 +7,13 @@
  Updated to use closures instead of making all functions global
  Created enumerations that return the userType/productType in plain english for readability
  Separated concerns by creating a separate function for product type price and rebate amount
+ 
+ Improvements:
+ One large improvement to my refactored code would be to update the enumerations to do something 
+ more valuable. Currently they just serve to make the code more readable for the developer. Instead of that,
+ maybe update the value to the rebate amount and then use that instead of checking
+ in an if statement. This way when we want to update a rebate amount, for example, we could just 
+ update the amount in the object instead of looking for the if statement in the function.
 ***/
 
 
