@@ -4,7 +4,7 @@
 
 /*** Changes
  ES5 => ES6+
- Updated to use closures instead of making function global. (thinking of making the global function that sets everything up a class or object but would have to change the index.html)
+ Updated to use closures instead of making function global
  Created enumerations that return the userType/productType in plain english for readability
  Separated concerns by creating a separate function for product type price and rebate amount
 ***/
